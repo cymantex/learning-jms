@@ -10,7 +10,7 @@ public class Email {
     @Override
     public String toString() {
         return String.join(
-            "Email: {",
+            "Email: {\n",
             "    to = " + getTo() + ",\n",
             "    body = " + getBody() + "\n",
             "}"
