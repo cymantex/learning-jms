@@ -18,8 +18,8 @@ public class Email {
     public String toString() {
         return (
             "Email: {\n" +
-            "    to = " + getTo() + ",\n" +
-            "    body = " + getBody() + "\n" +
+            "    to: " + getTo() + ",\n" +
+            "    body: " + getBody() + "\n" +
             "}"
         );
     }
